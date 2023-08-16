@@ -1,1 +1,21 @@
-/* Write your CSS here */
+.leftnav-bg {
+  background-color: #e2e8f0;
+  padding: 10px;
+}
+.body-bg {
+  margin-top: 10px;
+}
+
+.context-bg {
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+.pad {
+  margin-left: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.add {
+  border-style: solid;
+}

@@ -1,1 +1,13 @@
-/* Write your CSS here */
+.header-bg {
+  padding: 5px;
+  background-color: #cbd5e1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+h1 {
+  height: 15px;
+  font-size: 17px;
+}

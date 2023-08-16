@@ -1,9 +1,28 @@
 .config-bg {
   background-color: #475569;
   width: 100%;
+  color: white;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  font-family: 'roboto';
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 .check-bg {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 3px;
+  font-size: 10px;
+}
+h3 {
+  margin-left: 7px;
+  height: 10px;
+}
+input {
+  margin-right: 10px;
 }

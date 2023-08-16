@@ -27,12 +27,13 @@ const ConfigurationControl = () => (
 
       return (
         <div className="config-bg">
+          <h3>Layout</h3>
           <div className="check-bg">
             <input
               value={showContent}
               id="context"
               type="checkbox"
-              onChange={onShowContent}
+              onClick={onShowContent}
             />
             <label htmlFor="context">Context</label>
           </div>
@@ -41,7 +42,7 @@ const ConfigurationControl = () => (
               value={showLeftNavbar}
               id="left"
               type="checkbox"
-              onChange={onShowLeftNavbar}
+              onClick={onShowLeftNavbar}
             />
             <label htmlFor="left">Left Navbar</label>
           </div>
@@ -50,7 +51,7 @@ const ConfigurationControl = () => (
               value={showRightNavbar}
               id="right"
               type="checkbox"
-              onChange={onShowRightNavbar}
+              onClick={onShowRightNavbar}
             />
             <label htmlFor="right">Right NavBar</label>
           </div>
