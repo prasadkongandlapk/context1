@@ -8,21 +8,21 @@ const Body = () => (
 
       const leftNavBar = () => (
         <div className="leftnav-bg">
-          <h3>Left Navbar Menu</h3>
-          <div className="pad">
-            <p>item 1</p>
-            <p>item 2</p>
-            <p>item 3</p>
-            <p>item 4</p>
-          </div>
+          <h1>Left Navbar Menu</h1>
+          <ul className="pad">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+          </ul>
         </div>
       )
 
-      const context = () => (
+      const content = () => (
         <div className="context-bg">
-          <h3>Context</h3>
+          <h1>Content</h1>
           <p>
-            Lorem,ipsum dollar sit amet Lorem,ipsum dollar sit amet Lorem,ipsum
+            Lorem ipsum dollar sit amet, Lorem,ipsum dollar sit amet Lorem,ipsum
             dollar sit amet
           </p>
         </div>
@@ -30,17 +30,18 @@ const Body = () => (
 
       const rightNavbar = () => (
         <div className="leftnav-bg">
-          <h3>Context</h3>
-          <p className="add">Add 1</p>
-          <p>Add 2</p>
+          <h1>Right Navbar Menu</h1>
+          <p className="add">Ad 1</p>
+          <p className="add">Ad 2</p>
         </div>
       )
+
       const result = () => {
         if (showLeftNavbar === true) {
           return leftNavBar()
         }
         if (showContent === true) {
-          return context()
+          return content()
         }
         if (showRightNavbar === true) {
           return rightNavbar()

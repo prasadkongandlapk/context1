@@ -1,14 +1,22 @@
 .leftnav-bg {
   background-color: #e2e8f0;
   padding: 10px;
+  width: 25%;
+  font-size: 10px;
+  text-align: center;
 }
 .body-bg {
   margin-top: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .context-bg {
   background-color: #f1f5f9;
   padding: 10px;
+  width: 25%;
+  font-size: 10px;
+  text-align: center;
 }
 .pad {
   margin-left: 20px;

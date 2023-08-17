@@ -8,13 +8,13 @@ const ConfigurationControl = () => (
         showContent,
         showLeftNavbar,
         showRightNavbar,
-        onToggleShowContext,
+        onToggleShowContent,
         onToggleShowLeftNavbar,
         onToggleShowRightNavbar,
       } = value
 
       const onShowContent = () => {
-        onToggleShowContext()
+        onToggleShowContent()
       }
 
       const onShowLeftNavbar = () => {
@@ -35,7 +35,7 @@ const ConfigurationControl = () => (
               type="checkbox"
               onClick={onShowContent}
             />
-            <label htmlFor="context">Context</label>
+            <label htmlFor="context">Content</label>
           </div>
           <div className="check-bg">
             <input
